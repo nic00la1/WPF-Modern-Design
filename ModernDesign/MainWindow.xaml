@@ -50,6 +50,14 @@
                                  FontSize="14"
                                  Style="{StaticResource MenuButtonTheme}"/>
                 </StackPanel>
+                
+                <TextBox Grid.Column="1"
+                         Width="250"
+                         Height="40"
+                         VerticalContentAlignment="Center"
+                         HorizontalAlignment="Left"
+                         Margin="5"
+                         Style="{StaticResource ModernTextbox}"/>
             </Grid>            
         </Border>
 </Window>
