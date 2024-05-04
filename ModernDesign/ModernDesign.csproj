@@ -10,10 +10,12 @@
 
     <ItemGroup>
       <Folder Include="Fonts\" />
-      <Folder Include="Images\" />
       <Folder Include="MVVM\Model\" />
-      <Folder Include="MVVM\ViewModel\" />
-      <Folder Include="MVVM\View\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Images\man.png" />
+      <Resource Include="Images\man.png" />
     </ItemGroup>
 
 </Project>
